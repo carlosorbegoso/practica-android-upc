@@ -39,6 +39,7 @@ class FormUserActivity : AppCompatActivity() {
         btnGuardar.setOnClickListener {
             registrarLibro()
         }
+
     }
     fun registrarLibro(){
 
@@ -68,8 +69,6 @@ class FormUserActivity : AppCompatActivity() {
             val mensaje = libroDAO.registarLibro(objeto)
             mostrarMensaje(mensaje)
         }
-
-
 
     }
 
